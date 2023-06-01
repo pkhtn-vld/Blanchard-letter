@@ -1,0 +1,567 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<style type="text/css">
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Arial"] {
+			font-family: 'Arial', Open Sans, sans-serif !important;
+		}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border: none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100% !important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		table td {
+			border-collapse: collapse;
+		}
+
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+		.header {
+			height: 100px;
+			background-color: #000000;
+		}
+
+		.header-img {
+			height: 300px !important;
+		}
+
+
+		.hero-img {
+			width: 520px !important;
+			height: 180px !important;
+		}
+
+		.header-mobile-hidden {
+			display: none;
+		}
+
+		.about-title-mobile {
+			display: none;
+		}
+
+		.about-title {
+			margin: 0;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 24px;
+			color: #515151;
+		}
+
+		.center {
+			padding-top: 32px;
+			padding-bottom: 32px;
+		}
+
+		.hero-center {
+			width: 520px !important;
+			padding-top: 26px;
+			padding-bottom: 26px;
+			background-color: #000000;
+		}
+
+		.footer-center {
+			padding-top: 20px;
+			padding-bottom: 7px;
+		}
+
+
+		.about-text {
+			margin: 0;
+			font-weight: normal;
+			font-style: normal;
+			font-size: 12px;
+			line-height: 24px;
+			color: #515151;
+		}
+
+		.more {
+			width: 140px !important;
+			height: 70px !important;
+			line-height: 18px;
+			margin-bottom: 38px;
+		}
+
+		.painters {
+			margin: 0;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+			color: #ffffff;
+		}
+
+		.painters-more {
+			color: #515151
+		}
+
+		.hero-title {
+			margin: 0;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 24px;
+			color: #ffffff;
+		}
+
+		.hero-text {
+			margin: 0;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 18px;
+			color: #ffffff;
+		}
+
+
+
+		.more-link {
+			display: block !important;
+			width: 240px !important;
+			/* height: 45px !important; */
+			width: 100%;
+			height: 100%;
+			color: #ffffff;
+			background-color: #9d5cd0;
+			border-radius: 48px !important;  
+			padding-top: 15px;
+			padding-bottom: 15px;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		/* .btn { */
+			/* width: 240px !important; */
+			/* height: 45px !important; */
+			/* background-color: #9d5cd0; */
+			/* border-radius: 48px !important; */
+			/* font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			text-align: center; */
+
+		/* } */
+
+		/* .btn a {
+			color: #ffffff;
+			width: 100%;
+			height: 100%;
+			text-decoration: none;
+		} */
+
+		.extra-text {
+			margin: 0;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 10px;
+			line-height: 21px;
+			color: #757575;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+
+		.extra-link {
+			color: #9D5CD0;
+			text-decoration-line: underline;
+		}
+
+		.mb-21 {
+			margin-bottom: 21px;
+		}
+
+		.mb-13 {
+			margin-bottom: 13px;
+		}
+
+		.mb-8 {
+			margin-bottom: 8px;
+		}
+
+
+		@media (max-width: 599px) {
+		
+
+
+			.header {
+				display: none;
+				width: 280px !important;
+				height: 26px !important;
+			}
+
+			.header-mobile-hidden {
+				display: block !important;
+			}
+
+			.header-mobile {
+				/* display: block !important; */
+				width: 280px !important;
+				height: 26px !important;
+				padding-top: 17px;
+				padding-bottom: 17px;
+				background-color: #000000;
+			}
+
+			.about-title {
+				display: none !important;
+			}
+
+			.about-title-mobile {
+				display: block !important;
+				margin: 0;
+				line-height: 28px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 20px;
+				color: #515151;
+			}
+
+			.more-mobile {
+				display: block !important;
+			}
+
+			.more {
+				margin-bottom: 8px !important;
+			}
+
+			
+			.table-600 {
+				width: 280px !important;
+			}
+
+			.table-520 {
+				width: 244px !important;
+			}
+
+			.mb-50 {
+				margin-bottom: 50px !important;
+			}
+
+			.mb-13 {
+			margin-bottom: 13px;
+		}
+		}
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">
+		<h1>
+			Рассылка Blanchard
+		</h1>
+	</div>
+	<table class="table-600" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td align="center">
+				<table class="table-600" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="header" align="center">
+							<img src="https://i.ibb.co/TMwYq9J/header-logo.png" alt="логотип Blanchard" />
+						</td>
+					</tr>
+					<tr class="header-mobile-hidden">
+						<td class="header-mobile" align="center">
+						<!-- <td align="center"> -->
+							<img src="https://i.ibb.co/y42fLBj/header-logo-mobile.png" alt="логотип Blanchard" />
+						</td>
+					</tr>
+					<tr height="300">
+						<td align="center" height="300">
+							<img class="header-img" src="https://i.ibb.co/Vm5yBfZ/photo-1.jpg" alt="фото-1" />
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+	<table class="table-600" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td class="center" align="center" width="520">
+				<table class="table-520" align="center" cellpadding="0" cellspacing="0" width="520">
+					<tr>
+						<td align="left">
+							<h2 class="about-title mb-13" style="font-family: 'Arial', Open Sans, sans-serif">
+								Торжество импрессионизма
+							</h2>
+							<h2 class="about-title-mobile mb-13" style="font-family: 'Arial', Open Sans, sans-serif">
+								Торжество <br /> импрессионизма
+							</h2>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p class="about-text" style="font-family: 'Arial', Open Sans, sans-serif">
+								Опыт говорит нам, что семантический разбор внешних противодействий требует анализа новых
+								принципов формирования материально-технической и кадровой базы. <br /> <br />
+								Задача организации, в особенности же внедрение современных методик, в своём классическом
+								представлении, допускает внедрение глубокомысленных рассуждений. Есть над чем
+								задуматься:
+								элементы политического процесса преданы социально-демократической анафеме! Но
+								интерактивные
+								прототипы заблокированы в рамках своих собственных рациональных ограничений. Сторонники
+								тоталитаризма в науке ограничены исключительно образом мышления.
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#000000">
+		<tr>
+			<td class="hero-center" align="center">
+				<table class="table-520" align="center" cellpadding="0" cellspacing="0" width="520" bgcolor="#000000">
+					<tr>
+						<td align="left">
+							<h3 class="painters mb-21" style="font-family: 'Arial', Open Sans, sans-serif">
+								Представленные художники
+							</h3>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<img class="mb-21" src="https://i.ibb.co/3cNW907/photo-2.jpg" alt="фото-2" />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<h4 class="hero-title mb-8" style="font-family: 'Arial', Open Sans, sans-serif">
+								Поль Гоген
+							</h4>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p class="hero-text mb-21" style="font-family: 'Arial', Open Sans, sans-serif">
+								Прежде всего, разбавленное изрядной долей эмпатии, рациональное мышление в
+								значительной степени обусловливает важность укрепления моральных ценностей.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<img class="mb-21" src="https://i.ibb.co/p04QyVn/photo-3.jpg" alt="фото-3" />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<h4 class="hero-title mb-8" style="font-family: 'Arial', Open Sans, sans-serif">
+								Огюст Ренуар
+							</h4>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p class="hero-text mb-21" style="font-family: 'Arial', Open Sans, sans-serif">
+								А также сделанные на базе интернет-аналитики выводы освещают чрезвычайно
+								интересные
+								особенности картины в целом.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<img class="mb-21" src="https://i.ibb.co/hcx3CXS/photo-4.jpg" alt="фото-4" />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<h4 class="hero-title mb-8" style="font-family: 'Arial', Open Sans, sans-serif">
+								Клод Моне
+							</h4>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p class="hero-text mb-21" style="font-family: 'Arial', Open Sans, sans-serif">
+								Современная методология разработки однозначно фиксирует необходимость системы
+								массового участия.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<img class="mb-21" src="https://i.ibb.co/WFncQ0p/photo-5.jpg" alt="фото-5" />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<h4 class="hero-title mb-8" style="font-family: 'Arial', Open Sans, sans-serif">
+								Эдуард Мане
+							</h4>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p class="hero-text mb-21" style="font-family: 'Arial', Open Sans, sans-serif">
+								Но социально-экономическое развитие является качественно новой ступенью вывода
+								текущих активов.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<img class="mb-21" src="https://i.ibb.co/PzqRzGY/photo-6.jpg" alt="фото-6" />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<h4 class="hero-title mb-8" style="font-family: 'Arial', Open Sans, sans-serif">
+								Винсент Ван Гог
+							</h4>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p class="hero-text mb-21" style="font-family: 'Arial', Open Sans, sans-serif">
+								Повседневная практика показывает, что разбавленное изрядной долей эмпатии,
+								рациональное мышление требует анализа поставленных обществом задач.
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600">
+		<tr>
+			<td class="center" align="center">
+				<table class="table-520" align="center" cellpadding="0" cellspacing="0" width="520">
+					<tr>
+						<td align="left">
+							<h3 class="painters painters-more mb-13"
+								style="font-family: 'Arial', Open Sans, sans-serif">
+								И это ещё не всё!
+							</h3>
+						</td>
+					</tr>
+				</table>
+				<table class="table-520" align="center" cellpadding="0" cellspacing="0" width="520">
+					<tr>
+						<td class="more-mobile" align="left">
+							<img class="mb-13" src="https://i.ibb.co/fS3rvpK/icon-1.png" alt="иконка галочка" />
+							<p class="about-text more" style="font-family: 'Arial', Open Sans, sans-serif">
+								Уникальные подборки работ с авторскими рецензиями
+							</p>
+						</td>
+						<td class="more-mobile" align="left">
+							<img class="mb-13" src="https://i.ibb.co/LxpG6qR/icon-2.png" alt="иконка календарь" />
+							<p class="about-text more" style="font-family: 'Arial', Open Sans, sans-serif">
+								Возможность настроить нашу рассылку под свой личный вкус
+							</p>
+						</td>
+						<td class="more-mobile" align="left">
+							<img class="mb-13" src="https://i.ibb.co/jDB0tv4/icon-3.png" alt="иконка стрелка" />
+							<p class="about-text more mb-50" style="font-family: 'Arial', Open Sans, sans-serif">
+								У вас есть пожелания и предложения? Напишите нам в ответ на это письмо!
+							</p>
+						</td>
+					</tr>
+				</table>
+
+				<table class="table-520" align="center" cellpadding="0" cellspacing="0" width="520">
+					<tr>
+						<td align="center">
+							<table cellpadding="0" cellspacing="0" width="240">
+								<tr>
+									<td class="btn" align="center">
+										<a class="more-link" href="#" style="font-family: 'Arial', Open Sans, sans-serif; color: #ffffff;">
+											Узнать все подробности
+										</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#000000">
+		<tr>
+			<td class="footer-center" align="center">
+				<table align="center" cellpadding="0" cellspacing="0" width="143" bgcolor="#000000">
+					<tr>
+						<td align="left">
+							<a href="#">
+								<img class="mb-13" src="https://i.ibb.co/SBZtGn7/footer-icon-1.png" alt="логотип вконтакте" />
+							</a>
+						</td>
+						<td align="center">
+							<a href="#">
+								<img class="mb-13" src="https://i.ibb.co/JCbtMyY/footer-icon-2.png" alt="логотип инстаграм" />
+							</a>
+						</td>
+						<td align="right">
+							<a href="#">
+								<img class="mb-13" src="https://i.ibb.co/09cvh8p/footer-icon-3.png" alt="логотип фейсбук" />
+							</a>
+						</td>
+					</tr>
+				</table>
+				<table align="center" cellpadding="0" cellspacing="0" width="250" bgcolor="#000000">
+					<tr>
+						<td align="center">
+							<p class="about-text" style="font-family: 'Arial', Open Sans, sans-serif">
+								Blanchard © 2020 / Все права защищены
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600">
+		<tr>
+			<td align="center">
+				<table align="center" cellpadding="0" cellspacing="0" width="250">
+					<tr>
+						<td align="center">
+							<p class="extra-text" style="font-family: 'Arial', Open Sans, sans-serif">
+								Вы можете так же
+								<a class="extra-link" href="#" style="font-family: 'Arial', Open Sans, sans-serif">
+									отписаться от рассылки
+								</a>
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
